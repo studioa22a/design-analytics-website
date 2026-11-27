@@ -1,0 +1,20 @@
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/plex-sans-400.woff2) format('woff2')}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/plex-sans-500.woff2) format('woff2')}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/plex-sans-600.woff2) format('woff2')}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/plex-mono-400.woff2) format('woff2')}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/plex-mono-500.woff2) format('woff2')}
+
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#FFFFFF}
+a{color:#16181D}a:hover{color:#1F4FD8}
+a:focus-visible{outline:2px solid #1F4FD8;outline-offset:3px}
+.panel{display:flex;align-items:flex-end;justify-content:flex-start;border-radius:6px;box-sizing:border-box;padding:14px 16px;
+  background-color:#EEF0F2;background-image:linear-gradient(#E3E5E8 1px,transparent 1px),linear-gradient(90deg,#E3E5E8 1px,transparent 1px);
+  background-size:24px 24px;font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#5B616B}
+@media (max-width: 760px){
+.g2,.g3,.g4{grid-template-columns:repeat(1,minmax(0,1fr)) !important}
+.h1{font-size:40px !important}
+.h1-hero{font-size:48px !important}
+.h2{font-size:30px !important}
+.sec{padding-top:56px !important;padding-bottom:56px !important}
+}
